@@ -1,0 +1,37 @@
+
+h1{
+    font-family: Georgia;
+    color: whitesmoke;
+}
+fieldset{
+    border: 2px solid black;
+    margin: 0 40%;
+    background-color: #915AFF;
+    text-align: center;
+    align-items: start;
+    color: whitesmoke;
+    padding: 40px;
+    border-radius: 9px;
+    position: absolute;
+    top: 150px;
+}
+input, select{
+    float: right;
+    width: 300px;
+}
+input, select, button{
+    border-radius: 5px;
+}
+label{
+    display: block;
+    float: left;
+}
+button{
+    font-size: 15px;
+    width: 100px;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: #ac89f1;
+}
+

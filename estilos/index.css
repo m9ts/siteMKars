@@ -1,0 +1,128 @@
+* {
+    font-family: Georgia;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+nav {
+    background: linear-gradient(to right, #825ad3, #D3D3D3);
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover {
+    background-color: #D3D3D3;
+}
+
+aside ul {
+    font-size: 120%;
+    color: black;
+}
+
+.dropdown {
+    position: absolute;
+    box-shadow: 0 0 2px #9370DB;
+    display: none;
+}
+
+.dropdown a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.mais {
+    background: linear-gradient(to right, #D3D3D3, #9370DB);
+}
+
+.mais:hover .dropdown {
+    display: block;
+    background-color: #9370DB;
+}
+
+header {
+    background-color: #F1EFDC;
+    margin: 0;
+}
+
+main {
+    background-color:#F1EFDC;
+    height: 620px;
+}
+
+footer {
+    background-color: #9370DB;
+    height: 130px;
+}
+
+.nav:link,
+.nav:visited,
+.footer:link,
+.footer:visited {
+    color: #9370DB;
+}
+
+a:hover {
+    color: #D3D3D3;
+}
+
+.logo {
+    height: 350px;
+    width: 300px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.centro {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.paragrafo {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@media only screen and (min-width: 992px) {
+    * {
+        font-family: Georgia;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    * {
+        font-family: Georgia;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+    footer {
+        height: 90px;
+    }
+}

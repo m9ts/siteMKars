@@ -1,0 +1,16 @@
+#alinhar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.carros{
+    width: 400px;
+    height: 200px;
+}
+.legenda{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+
